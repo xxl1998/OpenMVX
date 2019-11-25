@@ -10,5 +10,6 @@ now only STM32H743+OV7725 FPC version (openMV4)
 
 ### 有任何技术问题，可加QQ群 923703530
 ### 更多技术分享和作品开源分享，可关注微信公众号： 飞觞醉月    
+![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/qrcode_Wechat_Official_Account.jpg)
 ![Image text](https://raw.githubusercontent.com/xxl1998/OpenMVX/master/qrcode_QQ_group.png)
 
