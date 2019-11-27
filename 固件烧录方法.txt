@@ -1,0 +1,15 @@
+1、
+DFU
+手动操作软件，较复杂
+详见：
+https://book.openmv.cc/firmware/upgrade.html#dfu升级
+
+2、
+连上位机，强行连接，选择“我的openmv变砖了”根据提示操作
+（其实也是DFU）
+
+3、
+使用jlink、stlink等编程器自带的软件如jflasher等直接把bin文件烧入（需要改硬件或烧完再焊上，不推荐，推荐DFU烧录一次后面上位机升级，想SWD debug的可把SWD加上）
+
+
+飞觞醉月  2019-11-27
