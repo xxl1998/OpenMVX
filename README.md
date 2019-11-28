@@ -9,13 +9,16 @@ now only STM32H743+OV7725 FPC version (openMV4)
 没有key，即“盗版 openmv”，除每次弹窗外不影响使用，固件使用DFU刷入，SWD是没有用的，所以去掉了。
 给出原理图、PCB、PCB工程文件、集成封装库等硬件全部文件，Altium Designer 16格式（AD16）。
 （使用原版openmv二次修改而来，已包含原版openmv的license文件：master/openmv LICENSE.txt）
-##预览PCB
+
+## 预览PCB
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/images/PCB截图.png)
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/images/PCB%203D图top.png)
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/images/PCB%203D图bottom.png)
-##实拍效果
+
+## 实拍效果
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/images/第二代%20TF卡成功.jpg)
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/images/第三代%20bug改好.jpg)
+
 ### 有任何技术问题，可加QQ群 923703530
 ### 更多技术分享和作品开源分享，可关注微信公众号： 飞觞醉月    
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/qrcode_Wechat_Official_Account.jpg)
