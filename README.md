@@ -9,7 +9,12 @@ now only STM32H743+OV7725 FPC version (openMV4)
 没有key，即“盗版 openmv”，除每次弹窗外不影响使用，固件使用DFU刷入，SWD是没有用的，所以去掉了。
 给出原理图、PCB、PCB工程文件、集成封装库等硬件全部文件，Altium Designer 16格式（AD16）。
 （使用原版openmv二次修改而来，已包含原版openmv的license文件：master/openmv LICENSE.txt）
-## 高频问题解答：为什么MCU两颗LDO供电？习惯而已，一颗也行，OV7725也可以公用，整个PCB就一个3.3V的LDO也行，只要电流够用。 是几层板？两层板常规工艺，走到哪都不用加钱的那种
+## 高频问题解答：  
+## 为什么MCU两颗LDO供电？习惯而已，一颗也行，OV7725也可以公用，整个PCB就一个3.3V的LDO也行，只要电流够用。    
+## 是几层板？两层板常规工艺，走到哪都不用加钱的那种。
+## DFU烧录固件卡在66%？这不是个例，我用的是硬件版本Y的芯片烧录固件完全正常，硬件版本V的芯片出现此问题，原因尚不清楚。
+## 引出排针有个空脚？那是外部帧同步信号，BGA的OV7725有，FPC的OV7725没有这个引脚，为了与OpenMV官方版引脚兼容，此引脚悬空。
+
 ## 预览PCB
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/images/PCB截图.png)
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/images/PCB%203D图top.png)
