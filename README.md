@@ -14,6 +14,7 @@ now only STM32H743+OV7725 FPC version (openMV4)
 ## 是几层板？两层板常规工艺，走到哪都不用加钱的那种。
 ## DFU烧录固件卡在66%？这不是个例，我用的是硬件版本Y的芯片烧录固件完全正常，硬件版本V的芯片出现此问题，原因尚不清楚。
 ## 引出排针有个空脚？那是外部帧同步信号，BGA的OV7725有，FPC的OV7725没有这个引脚，为了与OpenMV官方版引脚兼容，此引脚悬空。
+## 元件在哪买？ 已更新了带淘宝链接的BOM，仅供参考，购买后果自行承担。
 
 ## 预览PCB
 ![Image_text](https://github.com/xxl1998/OpenMVX/blob/master/images/PCB截图.png)
