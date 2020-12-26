@@ -14,6 +14,14 @@
 给出原理图、PCB、PCB工程文件、集成封装库等硬件全部文件，Altium Designer 16格式（AD16）。
 （使用原版openmv二次修改而来，已包含原版openmv的license文件：master/openmv LICENSE.txt）
 
+## 怎么烧固件：
+
+我已经录制了烧录固件教程，每一步都有说明，视频链接：
+
+https://www.bilibili.com/video/BV1Gy4y1q7NB/
+
+4K分辨率，有字幕有链接
+
 ## 高频问题解答：  
 
 ### 为什么MCU两颗LDO供电？
